@@ -251,7 +251,7 @@ input,button,select,textarea{
 }
 /* Header Bottom */ 
 .header_bottom{
-   background-color: #b82529;
+   background-color: #FFF;
    position: relative;
  } 
 .home2 .header_bottom::after{
@@ -286,7 +286,7 @@ input,button,select,textarea{
     border-top: 94px solid transparent;
     top: 0;
     left: 0;    
-    border-left: 40px solid #b82529;
+    border-left: 40px solid #FFF;
 }
 .main_menu li{
     display: inline-block;
@@ -1645,7 +1645,7 @@ footer{
     font-size: 16px;
     color: #eee;
     line-height: 24px;
-    padding: 25px 0;
+    padding: 0px 0;
 } 
 .social_media ul{
     height: 40px;
@@ -3242,7 +3242,7 @@ label[for="login_check"]{
     margin-top:10px;
 }
 .mean-container .mean-nav{
-    background: #b3191d;
+    background: #FFF;
     margin-top: 0;    
 }
 .mean-container .mean-bar, .mean-container .mean-bar *{

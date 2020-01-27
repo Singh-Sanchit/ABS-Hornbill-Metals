@@ -1,0 +1,23 @@
+name: CI/CD
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v1
+    - name: Version Checking
+      run: |
+        npm version
+    - name: Installing Firebase Tool
+      run: |
+        sudo npm i -g firebase-tools
+    - name: Firebase Deploy
+      run: |
+        firebase deploy --token ${{ secrets.FIREBASE_TOKEN }}

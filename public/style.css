@@ -1022,7 +1022,7 @@ input,button,select,textarea{
     color: #fff;
     z-index: 5;
     position: absolute;
-    top: calc(50% - 20px);
+    top: calc(30% - 20px);
     left:50%;
     transform: translate(-50%);
     opacity: 0;

@@ -20,7 +20,7 @@ jobs:
         sudo npm i -g firebase-tools
     - name: Firebase Selecting Project
       run: |
-        firebase use abs-hornbill-metal --token ${{ secrets.FIREBASE_TOKEN }}
+        firebase use "ABS Hornbill Metal" --token ${{ secrets.FIREBASE_TOKEN }}
     - name: Firebase Deploy
       run: |
         firebase deploy --token ${{ secrets.FIREBASE_TOKEN }}

@@ -12,6 +12,13 @@ jobs:
 
     steps:
     - uses: actions/checkout@v1
+    - name: Version Checking
+      run: |
+        npm version
+    - name: Build
+      run: |
+        npm install
+        npm run build
     - name: Firebase Deploy
       run: |
         firebase use "abs-hornbill-metal" --token ${{ secrets.FIREBASE_TOKEN }}

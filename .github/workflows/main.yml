@@ -18,9 +18,9 @@ jobs:
     - name: Installing Firebase Tool
       run: |
         sudo npm i -g firebase-tools
-#     - name: Firebase Selecting Project
-#       run: |
-#         firebase use "ABS Hornbill Metal" --token ${{secrets.FIREBASE_TOKEN }}
+    - name: Firebase Selecting Project
+      run: |
+        firebase use "ABS Hornbill Metal" --token ${{ secrets.FIREBASE_TOKEN }}
     - name: Firebase Deploy
       run: |
         firebase deploy --token ${{ secrets.FIREBASE_TOKEN }}

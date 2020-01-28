@@ -1104,7 +1104,7 @@ input,button,select,textarea{
 .single_brand .icon1{
     z-index: 13;
     top: calc(50% - 18px);
-    left: calc(50% - 40px);
+    left: calc(50% - 18px);
     opacity: 0;
 }
 .single_brand .icon1,.icon2{

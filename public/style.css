@@ -662,7 +662,7 @@ input,button,select,textarea{
 .feature_image{
     width: calc(100% + 30px);
     height: 410px;
-     background: url(images/about-me2.png);
+     background: url(images/banner/banner4.jpg);
     background-repeat: no-repeat;
     background-size:cover;
     display: inline-block;

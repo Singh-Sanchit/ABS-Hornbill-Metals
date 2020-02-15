@@ -1317,6 +1317,29 @@ Start Question & Popular Categories Area
 	background: #000;
 }
 
+.country_name{
+	background: #b4191d;
+	border: none;
+	color: #fff;
+	height: 50px;
+	border-radius: 50px;
+	width: 150px;
+	margin-top: 0px;
+	text-align: center;
+	margin-left: 15px;
+	margin-right: 20px;
+	cursor: pointer;
+	padding-top: 15px;
+	font-weight: 700;
+	float: left;
+	text-transform: uppercase;
+}
+.country_name:hover{
+	color:#fff; 
+}
+.country_name.btn3::after{
+	background: #000;
+}
 /*===================================================
 Start Feedback Area
 ===================================================*/
@@ -3725,23 +3748,21 @@ Start Responsive CSS
 
 /*
 #doughnut-chart {
-	display: block !important;
-	height: 700px !important;
-	width: 700px !important;
+display: block !important;
+height: 700px !important;
+width: 700px !important;
 }
 */
 
 /* Mobile Layout */
 @media only screen and (max-width: 767px) {
 
-/*
-	#doughnut-chart {
-		display: block !important;
-		height: 288px !important;
-		width: 288px !important;
+	.daylightmap {
+		margin-top: 100px!important;
 	}
-*/
-
+ 
+	
+	
 	.container {
 		width: 300px;
 	}
@@ -3798,6 +3819,14 @@ Start Responsive CSS
 	}
 	.main_slider_info h2 {
 		font-size: 26px;    
+		margin-bottom: 0;
+	}
+	.main_slider_info.maptext h1 {    
+		font-size: 16px;    
+		margin-bottom: 15px;
+	}
+	.main_slider_info.maptext h2 {
+		font-size: 16px;    
 		margin-bottom: 0;
 	}
 	.main_slider .owl-dots{       

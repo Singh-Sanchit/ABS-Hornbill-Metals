@@ -3766,6 +3766,11 @@ width: 700px !important;
 	.container {
 		width: 300px;
 	}
+	
+	.tradeslider{
+		width: 345px;
+	}
+	
 	.header_bottom,.header_top{
 		display: none;
 	}

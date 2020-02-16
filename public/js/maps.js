@@ -1,4 +1,4 @@
-(function() {
+$.getScript('https://cdnjs.cloudflare.com/ajax/libs/topojson/1.6.20/topojson.min.js', function() {
 	var DaylightMap, updateDateTime;
 
 	DaylightMap = function() {

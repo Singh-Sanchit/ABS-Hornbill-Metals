@@ -1,4 +1,4 @@
-$.getScript('https://cdnjs.cloudflare.com/ajax/libs/topojson/1.6.20/topojson.min.js', function() {
+(function() {
 	var DaylightMap, updateDateTime;
 
 	DaylightMap = function() {
@@ -319,7 +319,7 @@ $.getScript('https://cdnjs.cloudflare.com/ajax/libs/topojson/1.6.20/topojson.min
 						.append("path")
 						.attr("id", "land")
 						.attr("fill", "url(#landGradient)")
-						.datum(topojson.feature(data, data.objects.land))
+						.datum(daylightgraph.feature(data, data.objects.land))
 						.attr("d", worldPath);
 					// Asynchronous so re-order the elements here.
 					return this.shuffleElements();
@@ -520,4 +520,4 @@ $.getScript('https://cdnjs.cloudflare.com/ajax/libs/topojson/1.6.20/topojson.min
 		});
 		map.animate(10)
 	});
-}.call(this));
+}.call(this))
